@@ -1,0 +1,14 @@
+:root {
+    /* Colours */
+    --background: white;
+    --primary-header: #0c0c0c;
+    --secondary-header: #161616;
+    --text: black;
+    --card: rgb(233, 233, 233);
+
+    /* Sizes */
+    --web-title-size: 28pt;
+    --primary-header-size: 16pt;
+    --secondary-header-size: 14pt;
+    --text-size: 12pt;
+}
