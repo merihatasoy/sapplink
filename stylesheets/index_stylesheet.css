@@ -1,11 +1,29 @@
 body {
     overflow-x: hidden;
-    background-color: #f7f7f7;
+    background-color:var(--background);
 }
 .container {
     width: 80vw;
     margin: auto;
     /* background-color: red; */
+}
+.header {
+    display: grid;
+    grid-template-columns: 50% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33%;
+    grid-area: title about projects portfolio blog socials purchase;
+    grid-gap: 15px;
+}
+.container .header .title {
+    grid: title;
+    background-color: red;
+    font-family: calistoga;
+    font-size: var(--web-title-size);
+}
+.container .header .about {
+    grid: about;
+    background-color: red;
+    font-family: calistoga;
+    font-size: var(--primary-title-size);
 }
 .articles {
     display: grid;
@@ -17,7 +35,7 @@ body {
 div[class*="post"] {
     font-family: Roboto;
     height: 15em;
-    background-color: rgb(236, 236, 236);
+    background-color: var(--card);
     border: 1px solid rgb(255, 255, 255);
 }
 
