@@ -2,6 +2,7 @@
     /* Colours */
     --background: white;
     --secondary: #5bee7365;
+    --tertiary: #46b85965;
     --primary-header: #0c0c0c;
     --secondary-header: #161616;
     --hover-effects: #707070;
@@ -11,7 +12,7 @@
     /* Sizes */
     --web-title-size: 28pt;
     --primary-header-size: 10pt;
-    --secondary-header-size: 14pt;
+    --secondary-header-size: 9pt;
     --text-size: 12pt;
 }
 
